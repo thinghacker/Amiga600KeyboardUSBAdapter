@@ -17,8 +17,8 @@ Please note that the code requires the following libraries in addition to the ba
 | ------------ | ------------ |------------ | ---------- |
 | U1 | Raspberry Pi Pico | RP2040 Board with USB Connector | https://www.raspberrypi.org/products/raspberry-pi-pico/ | 
 | U2 | MCP20008 | 8 bit I2C IO Expander | https://www.microchip.com/wwwproducts/en/MCP23008 | 
-|J1|30 Pin FPC Connector 1.25mm spacing| Connects to the Amiga 600 Keyboard Ribbon|Molex 39532304|
-|J2|4 Pin Header Right Angle PCB Mount 2.54mm spacing|Connects to Amiga 600 Case LEDs|Sullins Connector Solutions SWR25X-NRTC-S04-RB-BA available from Jaycar as HM3424|
+|J1|4 Pin Header Right Angle PCB Mount 2.54mm spacing|Connects to Amiga 600 Case LEDs|Sullins Connector Solutions SWR25X-NRTC-S04-RB-BA available from Jaycar as HM3424|
+|J2|30 Pin FPC Connector 1.25mm spacing| Connects to the Amiga 600 Keyboard Ribbon|Molex 39532304|
 |R1 & R2 |4K7 Ohm Resistor|Pullups for I2C|various|
 
 ### PCB
