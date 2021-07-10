@@ -21,7 +21,6 @@ Supported Hardware: [Amiga 600 USB Keyboard Adapter](https://github.com/thinghac
 - Remove the USB cable, attach the keyboard and LEDs to the Adapter
 - Reattach the USB cable and type away!
 
-Reboot and enjoy
 ### Keyboard Layer Configuration
 
 #### Base Layer
