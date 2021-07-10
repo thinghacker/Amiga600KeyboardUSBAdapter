@@ -3,6 +3,8 @@ This Kicad 5.1.10 project enables an existing Amiga 600 Keyboard to be USB enabl
 
 The hardware design open and distributed under a GPL Version 3 License
 
+[Here is a PDF of the schematic for reference](schematic.pdf)
+
 Gerbers have already been generated and are present in the "plot" directory
 
 ![PCB Front](pcb-images/pcb-front.PNG)
