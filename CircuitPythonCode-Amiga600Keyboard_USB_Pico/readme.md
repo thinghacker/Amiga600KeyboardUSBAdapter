@@ -13,10 +13,13 @@ Supported Hardware: [Amiga 600 USB Keyboard Adapter](https://github.com/thinghac
 - [Uses a simple PCB Design](https://github.com/thinghacker/Amiga600KeyboardUSBAdapter/tree/main/PCB-Amiga600Keyboard_USB_Pico) with a small number of components
 
 ### Build Instructions
-Copy the **uf2** file to your Raspberry Pi Pico Board [install CircuitPython](https://circuitpython.org/board/raspberry_pi_pico/) - this script was written using version 6.3.0
-Copy the CircuitPython HID library [Adafruit_CircuitPython_HID](https://github.com/adafruit/Adafruit_CircuitPython_HID) (adafruit_hid directory) to the **lib** directory on your Pi Pico
-Copy the CircuitPython mcp230xx library [Adafruit_CircuitPython_MCP230xx](https://github.com/adafruit/Adafruit_CircuitPython_MCP230xx) (adafruit_mcp230xx directory) to the **lib** directory on your Pi Pico
-Copy the code.py file from this repo to your Pi Pico
+- Construct the PCB and connect it to the USB port of your computer where the Pi Pico should appear as a USB flash drive
+- Download the **uf2** file from [install CircuitPython](https://circuitpython.org/board/raspberry_pi_pico/) and copy it to your Pico Pico (this code was written using version 6.3.0)
+- Copy the CircuitPython HID library [Adafruit_CircuitPython_HID](https://github.com/adafruit/Adafruit_CircuitPython_HID) (adafruit_hid directory) to the **lib** directory on your Pi Pico
+- Copy the CircuitPython mcp230xx library [Adafruit_CircuitPython_MCP230xx](https://github.com/adafruit/Adafruit_CircuitPython_MCP230xx) (adafruit_mcp230xx directory) to the **lib** directory on your Pi Pico
+- Copy the code.py file from this repo to your Pi Pico
+- Remove the USB cable, attach the keyboard and LEDs to the Adapter
+- Reattach the USB cable and type away!
 
 Reboot and enjoy
 ### Keyboard Layer Configuration
