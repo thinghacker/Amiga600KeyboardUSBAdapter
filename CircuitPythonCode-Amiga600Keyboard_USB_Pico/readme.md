@@ -39,3 +39,6 @@ Supported Hardware: [Amiga 600 USB Keyboard Adapter](https://github.com/thinghac
 This is broadly inspired but very much a poor mans representation of the amazing [QMK firmware](https://github.com/qmk/qmk_firmware) that is extremely limited in scope and capability but seems good enough for me.
 
 The software as written is distributed under a GPL Version 3 License
+
+#### Update 14-Aug-2025
+This project has not been actively maintained for some time, however thanks to [n0rt0nthec4t](https://github.com/n0rt0nthec4t) and [Amellinium](https://github.com/Amellinium) an [issue](https://github.com/thinghacker/Amiga600KeyboardUSBAdapter/issues/4) with regards to needing to remove and re-insert the keyboard has been addressed, thank you both for your help.
