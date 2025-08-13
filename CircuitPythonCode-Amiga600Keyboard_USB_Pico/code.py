@@ -1,3 +1,7 @@
+import time
+# initial delay to avoid needing to unplug/replug in some instances for keyboard detection
+time.sleep(0.5)
+
 import usb_hid
 import board
 import digitalio
@@ -5,8 +9,6 @@ from adafruit_hid.keyboard import Keyboard
 from adafruit_hid.keycode import Keycode
 from adafruit_hid.consumer_control import ConsumerControl
 from adafruit_hid.consumer_control_code import ConsumerControlCode
-
-import time
 
 import board
 import busio
